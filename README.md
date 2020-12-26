@@ -29,8 +29,9 @@ sudoRUN allows users to run programs or scripts with the security privileges of 
     #!/bin/bash
     sudo /usr/bin/pacman-run $@
     exit
+    
 ### Make executable with:
-    chmod +x /usr/bin/update
+        chmod +x /usr/bin/update
 
 ### Now this UPDATE script can be passed to sudoRUN for the system entry with:
     sudo sh sudoRUN.sh [USERNAME] /usr/bin/update
