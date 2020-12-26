@@ -1,7 +1,6 @@
 # sudoRUN
-sudoRUN allows users to run programs or scripts with the security privileges of the root user without having to enter sudo and the password itself.
-
-#### You should never use sensitive tools or scripts outside the protected root area, where changes to scripts or the replacement or renaming of a tool can lead to security vulnerabilities.
+## allows users to run programs or scripts with the security privileges of the root user without having to enter sudo and the password itself.
+### You should never use sensitive tools or scripts outside the protected root area, where changes to scripts or the replacement or renaming of a tool can lead to security vulnerabilities.
 
 #### The creation of the start script always takes place under the specified path and tool or script name with the appended ending "-sudo", e.g."/usr/bin/tool" is entered, then the start script name is "/usr/bin/tool-sudo". Since this is a script which contains a start condition which intrinsically contains the rights, it can be renamed without losing the rights or start conditions.
 
